@@ -1,0 +1,6 @@
+server:
+  port: 8181
+spring:
+  graphql:
+    graphiql:
+      enabled: true

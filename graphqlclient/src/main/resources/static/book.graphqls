@@ -1,0 +1,10 @@
+input CreateBook {
+    name: String!
+    pageCount: Int!
+    author: CreateAuthor!
+}
+
+input CreateAuthor {
+    firstName: String!
+    lastName: String!
+}
